@@ -30,7 +30,7 @@ twitter_username: victoriaposting
 github_username:  victoria-riley-barnett
 
 # Build settings
-theme: minima
+remote_theme: niklasbuschmann/contrast
 plugins:
   - jekyll-feed
 
