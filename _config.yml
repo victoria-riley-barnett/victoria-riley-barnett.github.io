@@ -23,7 +23,7 @@ email: victoria.022@proton.me
 description: >- # this means to ignore newlines until "baseurl:"
   A landing page for Victoria Barnett
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://victoriabarnett.codes" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://victoriabarnett.codes" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  victoria-riley-barnett
 
 # Build settings
