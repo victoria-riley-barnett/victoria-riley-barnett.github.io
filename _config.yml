@@ -25,26 +25,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  victoria-riley-barnett
-layouts_dir: /_layouts
 
 # Build settings
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts"
-    values:
-      layout: "default"
-      author: "Victoria"
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "pages"
-    values:
-      layout: "default"
-      author: "Victoria"
-
-remote_theme: niklasbuschmann/contrast
+theme: minima
 plugins:
   - jekyll-feed
 
