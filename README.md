@@ -1,3 +1,5 @@
 # victoriabarnett.codes
 
-A landing page for Victoria Barnett
+A personal blog for Victoria Barnett using Jekyll, Github Pages, mmistakes dark, namecheap, fa.
+
+<img width="900" alt="Screen shot of v1 of the site" src="https://user-images.githubusercontent.com/9009959/218278101-c72685a6-98e4-4fea-8d76-c88d84e83d7a.png">
