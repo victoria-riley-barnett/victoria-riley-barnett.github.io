@@ -7,7 +7,6 @@ permalink: /resume/
 ## Victoria Barnett
 
 [victoria.022@proton.me](mailto:victoria.022@proton.me)
-
 San Francisco, CA
 
 ### Objective
@@ -33,9 +32,9 @@ Military Connection: Technical Communication
 -   Upgraded several local organization software tools to directly interface with Access, increasing throughput for administrative scheduling tasks and systematized the process.
 -   Discovered and reported consistent on-going explosive hazard tracking errors in multiple interconnected databases for $400m of guided munitions, resulting in assisting the publishing of a global tech data update to ensure safe handling and proper explosive reclassification.
 
-| Skills| | |
-|---|---|---|
-| Javascript | Python | C++ |
-| Jekyll | Flask | Wordpress |
-| Gitlab | Github | Ruby |
-| Workspace | Appscript | 
+| Skills| | | Courses | Institution | 
+|---|---|---|---|---|
+| Javascript | Python | C++ | CS 110C/110B | CCSF
+| Jekyll | Flask | Wordpress | CGS 2820 Web Design | Northwest Florida State College 
+| Gitlab | Github | Ruby | CS 17700 Programming with MM Objs | Purdue University
+| Workspace | Appscript | | CS 19000 Tools | Purdue University
