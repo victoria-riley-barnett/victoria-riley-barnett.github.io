@@ -5,7 +5,7 @@ date:   2023-02-11 01:53:00 -0700
 tag: Documentation
 ---
 
-Credit to [The Markdown Guide](https://www.markdownguide.org)! This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements and simultaneously lets me see them all styled.
+Credit to [The Markdown Guide](https://www.markdownguide.org) - this Markdown cheat sheet provides a quick overview of all the Markdown syntax elements and simultaneously lets me see them all styled.
 
 ## Basic Syntax
 

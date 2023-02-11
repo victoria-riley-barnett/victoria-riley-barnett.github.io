@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: single
 title: Work History
 permalink: /work_history/
 ---
-
-### [Work History](/work_history/)
 
 | Company | Location | Position | Description | Timeframe |
 | --- | --- | ----| --- | --- |

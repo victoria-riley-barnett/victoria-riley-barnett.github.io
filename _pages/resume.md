@@ -15,7 +15,7 @@ Motivated and detail-oriented software developer and former US Air Force Munitio
 
 ### Summary of Qualifications
 
-5 years experience working in secure munitions test environments in the USAF. Proven ability to thrive working in time-sensitive & documentation intensive environments. High attention to detail & technical mastery of position resulted in global safety data updates for over $400m in assets. Dean's list CS undergrad student.
+5 years experience working in secure munitions test environments in the USAF. Proven ability to thrive working in time-sensitive & documentation intensive environments. High attention to detail & technical mastery of position resulted in global safety data updates for over $400m in assets. Dean's list undergraduate Computer Science student.
 
 #### Education & Certification
 

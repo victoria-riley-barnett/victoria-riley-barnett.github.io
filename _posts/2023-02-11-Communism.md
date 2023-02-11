@@ -9,12 +9,19 @@ One of the earliest projects I did as I was learning Unix, starting with ZSH on 
 
 In the future I want to add more quotes and probably have configuration options for a much smaller hammer & sickle - more to come :)
 
-<img width="909" alt="Screen Shot 2022-09-28 at 4 01 15 AM" src="https://user-images.githubusercontent.com/9009959/192763072-f36792ee-f028-4ade-917c-46e64d67f966.png">
+<img width="900" alt="Screenshot of the app in my terminal on Arch" src="https://user-images.githubusercontent.com/9009959/218278604-390b7d68-1bba-425f-880b-4c40455559ce.png">
 
-[A chill startup plugin](https://github.com/victoria-riley-barnett/Communism)
+A chill ZSH startup plugin that adds Marx quotes and some wonderful red imagery to your terminal.
 
-Requires oh-my-zsh
+### Requires 
+- oh-my-zsh
 
-Place in /Users/user/.oh-my-zsh/custom/plugins, in a parent folder named "anything" (I used 'communism'). Then, cd back to root and edit .zshrc to include your plugin. 
-
+### Installation
+```
+cd ~/{wherever you put your OMZ plugins or scripts}
+git clone --depth-1 https://github.com/victoria-riley-barnett/Communism
+```
+```
+#Edit .zshrc to include your plugin. 
 plugins=(... communism)
+```
