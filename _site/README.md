@@ -1,3 +1,3 @@
 # victoriabarnett.codes
 
-A portfolio, resume, and doc sharing site for Victoria Riley Barnett
+A landing page for Victoria Barnett
