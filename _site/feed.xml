@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-11T01:39:35-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">victoriabarnett.codes</title><subtitle>A landing page for Victoria Barnett</subtitle><author><name>Victoria Barnett</name></author><entry><title type="html">Markdown Cheat Sheet</title><link href="http://localhost:4000/docs/Markdown-Cheat-Sheet/" rel="alternate" type="text/html" title="Markdown Cheat Sheet" /><published>2022-10-01T12:51:38-07:00</published><updated>2022-10-01T12:51:38-07:00</updated><id>http://localhost:4000/docs/Markdown%20Cheat%20Sheet</id><content type="html" xml:base="http://localhost:4000/docs/Markdown-Cheat-Sheet/">&lt;p&gt;Credit to &lt;a href=&quot;https://www.markdownguide.org&quot;&gt;The Markdown Guide&lt;/a&gt;! This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements and simultaneously lets me see them all styled.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-11T02:08:11-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">victoriabarnett.codes</title><subtitle>A landing page for Victoria Barnett</subtitle><author><name>Victoria Barnett</name></author><entry><title type="html">Communism ZSH Plugin</title><link href="http://localhost:4000/docs/Communism/" rel="alternate" type="text/html" title="Communism ZSH Plugin" /><published>2023-02-11T01:03:50-08:00</published><updated>2023-02-11T01:03:50-08:00</updated><id>http://localhost:4000/docs/Communism</id><content type="html" xml:base="http://localhost:4000/docs/Communism/">&lt;p&gt;One of the earliest projects I did as I was learning Unix, starting with ZSH on my Macbook. I wrote a little plugin for oh-my-zsh that pulls a Marx quote with each new terminal session and adds some beautiful red imagery to your terminal.&lt;/p&gt;
+
+&lt;p&gt;In the future I want to add more quotes and probably have configuration options for a much smaller hammer &amp;amp; sickle - more to come :)&lt;/p&gt;
+
+&lt;p&gt;&lt;img width=&quot;909&quot; alt=&quot;Screen Shot 2022-09-28 at 4 01 15 AM&quot; src=&quot;https://user-images.githubusercontent.com/9009959/192763072-f36792ee-f028-4ade-917c-46e64d67f966.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/victoria-riley-barnett/Communism&quot;&gt;A chill startup plugin&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Requires oh-my-zsh&lt;/p&gt;
+
+&lt;p&gt;Place in /Users/user/.oh-my-zsh/custom/plugins, in a parent folder named “anything” (I used ‘communism’). Then, cd back to root and edit .zshrc to include your plugin.&lt;/p&gt;
+
+&lt;p&gt;plugins=(… communism)&lt;/p&gt;</content><author><name>Victoria Barnett</name></author><category term="docs" /><summary type="html">One of the earliest projects I did as I was learning Unix, starting with ZSH on my Macbook. I wrote a little plugin for oh-my-zsh that pulls a Marx quote with each new terminal session and adds some beautiful red imagery to your terminal.</summary></entry><entry><title type="html">Markdown Cheat Sheet</title><link href="http://localhost:4000/docs/Markdown-Cheat-Sheet/" rel="alternate" type="text/html" title="Markdown Cheat Sheet" /><published>2023-02-11T00:53:00-08:00</published><updated>2023-02-11T00:53:00-08:00</updated><id>http://localhost:4000/docs/Markdown%20Cheat%20Sheet</id><content type="html" xml:base="http://localhost:4000/docs/Markdown-Cheat-Sheet/">&lt;p&gt;Credit to &lt;a href=&quot;https://www.markdownguide.org&quot;&gt;The Markdown Guide&lt;/a&gt;! This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements and simultaneously lets me see them all styled.&lt;/p&gt;
 
 &lt;h2 id=&quot;basic-syntax&quot;&gt;Basic Syntax&lt;/h2&gt;
 
@@ -140,4 +152,208 @@
       &lt;p&gt;This is the footnote. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Victoria Barnett</name></author><category term="docs" /><summary type="html">Credit to The Markdown Guide! This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements and simultaneously lets me see them all styled.</summary></entry></feed>
+&lt;/div&gt;</content><author><name>Victoria Barnett</name></author><category term="docs" /><summary type="html">Credit to The Markdown Guide! This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements and simultaneously lets me see them all styled.</summary></entry><entry><title type="html">i3 config</title><link href="http://localhost:4000/docs/i3config/" rel="alternate" type="text/html" title="i3 config" /><published>2023-02-11T00:51:38-08:00</published><updated>2023-02-11T00:51:38-08:00</updated><id>http://localhost:4000/docs/i3config</id><content type="html" xml:base="http://localhost:4000/docs/i3config/">&lt;p&gt;See my &lt;a href=&quot;https://github.com/victoria-riley-barnett/i3config&quot;&gt;Github - i3config&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;i3-config-file&quot;&gt;i3 config file&lt;/h1&gt;
+
+&lt;p&gt;This config file uses keycodes (bindsym) and was written for the QWERTY layout.&lt;/p&gt;
+
+&lt;h1 id=&quot;font-for-window-titles-will-also-be-used-by-the-bar-unless-a-different-font&quot;&gt;Font for window titles. Will also be used by the bar unless a different font&lt;/h1&gt;
+&lt;h1 id=&quot;is-used-in-the-bar--block-below&quot;&gt;is used in the bar {} block below.&lt;/h1&gt;
+&lt;p&gt;font pango:monospace 8&lt;/p&gt;
+
+&lt;h1 id=&quot;this-font-is-widely-installed-provides-lots-of-unicode-glyphs-right-to-left&quot;&gt;This font is widely installed, provides lots of unicode glyphs, right-to-left&lt;/h1&gt;
+&lt;h1 id=&quot;text-rendering-and-scalability-on-retinahidpi-displays-thanks-to-pango&quot;&gt;text rendering and scalability on retina/hidpi displays (thanks to pango).&lt;/h1&gt;
+&lt;p&gt;#font pango:DejaVu Sans Mono 8&lt;/p&gt;
+
+&lt;h1 id=&quot;start-xdg-autostart-desktop-files-using-dex-see-also&quot;&gt;Start XDG autostart .desktop files using dex. See also&lt;/h1&gt;
+&lt;h1 id=&quot;httpswikiarchlinuxorgindexphpxdg_autostart&quot;&gt;https://wiki.archlinux.org/index.php/XDG_Autostart&lt;/h1&gt;
+&lt;p&gt;exec –no-startup-id dex –autostart –environment i3&lt;/p&gt;
+
+&lt;h1 id=&quot;the-combination-of-xss-lock-nm-applet-and-pactl-is-a-popular-choice-so&quot;&gt;The combination of xss-lock, nm-applet and pactl is a popular choice, so&lt;/h1&gt;
+&lt;h1 id=&quot;they-are-included-here-as-an-example-modify-as-you-see-fit&quot;&gt;they are included here as an example. Modify as you see fit.&lt;/h1&gt;
+
+&lt;h1 id=&quot;xss-lock-grabs-a-logind-suspend-inhibit-lock-and-will-use-i3lock-to-lock-the&quot;&gt;xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the&lt;/h1&gt;
+&lt;h1 id=&quot;screen-before-suspend-use-loginctl-lock-session-to-lock-your-screen&quot;&gt;screen before suspend. Use loginctl lock-session to lock your screen.&lt;/h1&gt;
+&lt;p&gt;exec –no-startup-id xss-lock –transfer-sleep-lock – i3lock –nofork&lt;/p&gt;
+
+&lt;h1 id=&quot;networkmanager-is-the-most-popular-way-to-manage-wireless-networks-on-linux&quot;&gt;NetworkManager is the most popular way to manage wireless networks on Linux,&lt;/h1&gt;
+&lt;h1 id=&quot;and-nm-applet-is-a-desktop-environment-independent-system-tray-gui-for-it&quot;&gt;and nm-applet is a desktop environment-independent system tray GUI for it.&lt;/h1&gt;
+&lt;p&gt;exec –no-startup-id nm-applet&lt;/p&gt;
+
+&lt;h1 id=&quot;use-pactl-to-adjust-volume-in-pulseaudio&quot;&gt;Use pactl to adjust volume in PulseAudio.&lt;/h1&gt;
+&lt;p&gt;set $refresh_i3status killall -SIGUSR1 i3status
+bindsym XF86AudioRaiseVolume exec –no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% &amp;amp;&amp;amp; $refresh_i3status
+bindsym XF86AudioLowerVolume exec –no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% &amp;amp;&amp;amp; $refresh_i3status
+bindsym XF86AudioMute exec –no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle &amp;amp;&amp;amp; $refresh_i3status
+bindsym XF86AudioMicMute exec –no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle &amp;amp;&amp;amp; $refresh_i3status&lt;/p&gt;
+
+&lt;h1 id=&quot;use-these-keys-for-focus-movement-and-resize-directions-when-reaching-for&quot;&gt;use these keys for focus, movement, and resize directions when reaching for&lt;/h1&gt;
+&lt;h1 id=&quot;the-arrows-is-not-convenient&quot;&gt;the arrows is not convenient&lt;/h1&gt;
+&lt;p&gt;set $up l
+set $down k
+set $left j
+set $right semicolon&lt;/p&gt;
+
+&lt;h1 id=&quot;use-mousemod1-to-drag-floating-windows-to-their-wanted-position&quot;&gt;use Mouse+Mod1 to drag floating windows to their wanted position&lt;/h1&gt;
+&lt;p&gt;floating_modifier Mod1&lt;/p&gt;
+
+&lt;h1 id=&quot;move-tiling-windows-via-drag--drop-by-left-clicking-into-the-title-bar&quot;&gt;move tiling windows via drag &amp;amp; drop by left-clicking into the title bar,&lt;/h1&gt;
+&lt;h1 id=&quot;or-left-clicking-anywhere-into-the-window-while-holding-the-floating-modifier&quot;&gt;or left-clicking anywhere into the window while holding the floating modifier.&lt;/h1&gt;
+&lt;p&gt;tiling_drag modifier titlebar&lt;/p&gt;
+
+&lt;h1 id=&quot;start-a-terminal&quot;&gt;start a terminal&lt;/h1&gt;
+&lt;p&gt;bindsym Mod1+Return exec i3-sensible-terminal&lt;/p&gt;
+
+&lt;h1 id=&quot;kill-focused-window&quot;&gt;kill focused window&lt;/h1&gt;
+&lt;p&gt;bindsym Mod1+Shift+q kill&lt;/p&gt;
+
+&lt;h1 id=&quot;start-dmenu-a-program-launcher&quot;&gt;start dmenu (a program launcher)&lt;/h1&gt;
+&lt;p&gt;bindsym Mod1+d exec –no-startup-id dmenu_run&lt;/p&gt;
+&lt;h1 id=&quot;a-more-modern-dmenu-replacement-is-rofi&quot;&gt;A more modern dmenu replacement is rofi:&lt;/h1&gt;
+&lt;h1 id=&quot;bindsym-mod1d-exec-rofi--modi-drunrun--show-drun&quot;&gt;bindsym Mod1+d exec “rofi -modi drun,run -show drun”&lt;/h1&gt;
+&lt;h1 id=&quot;there-also-is-i3-dmenu-desktop-which-only-displays-applications-shipping-a&quot;&gt;There also is i3-dmenu-desktop which only displays applications shipping a&lt;/h1&gt;
+&lt;h1 id=&quot;desktop-file-it-is-a-wrapper-around-dmenu-so-you-need-that-installed&quot;&gt;.desktop file. It is a wrapper around dmenu, so you need that installed.&lt;/h1&gt;
+&lt;h1 id=&quot;bindsym-mod1d-exec-no-startup-id-i3-dmenu-desktop&quot;&gt;bindsym Mod1+d exec –no-startup-id i3-dmenu-desktop&lt;/h1&gt;
+
+&lt;h1 id=&quot;change-focus&quot;&gt;change focus&lt;/h1&gt;
+&lt;p&gt;bindsym Mod1+$left focus left
+bindsym Mod1+$down focus down
+bindsym Mod1+$up focus up
+bindsym Mod1+$right focus right&lt;/p&gt;
+
+&lt;h1 id=&quot;alternatively-you-can-use-the-cursor-keys&quot;&gt;alternatively, you can use the cursor keys:&lt;/h1&gt;
+&lt;p&gt;bindsym Mod1+Left focus left
+bindsym Mod1+Down focus down
+bindsym Mod1+Up focus up
+bindsym Mod1+Right focus right&lt;/p&gt;
+
+&lt;h1 id=&quot;move-focused-window&quot;&gt;move focused window&lt;/h1&gt;
+&lt;p&gt;bindsym Mod1+Shift+$left move left
+bindsym Mod1+Shift+$down move down
+bindsym Mod1+Shift+$up move up
+bindsym Mod1+Shift+$right move right&lt;/p&gt;
+
+&lt;h1 id=&quot;alternatively-you-can-use-the-cursor-keys-1&quot;&gt;alternatively, you can use the cursor keys:&lt;/h1&gt;
+&lt;p&gt;bindsym Mod1+Shift+Left move left
+bindsym Mod1+Shift+Down move down
+bindsym Mod1+Shift+Up move up
+bindsym Mod1+Shift+Right move right&lt;/p&gt;
+
+&lt;h1 id=&quot;split-in-horizontal-orientation&quot;&gt;split in horizontal orientation&lt;/h1&gt;
+&lt;p&gt;bindsym Mod1+h split h&lt;/p&gt;
+
+&lt;h1 id=&quot;split-in-vertical-orientation&quot;&gt;split in vertical orientation&lt;/h1&gt;
+&lt;p&gt;bindsym Mod1+v split v&lt;/p&gt;
+
+&lt;h1 id=&quot;enter-fullscreen-mode-for-the-focused-container&quot;&gt;enter fullscreen mode for the focused container&lt;/h1&gt;
+&lt;p&gt;bindsym Mod1+f fullscreen toggle&lt;/p&gt;
+
+&lt;h1 id=&quot;change-container-layout-stacked-tabbed-toggle-split&quot;&gt;change container layout (stacked, tabbed, toggle split)&lt;/h1&gt;
+&lt;p&gt;bindsym Mod1+s layout stacking
+bindsym Mod1+w layout tabbed
+bindsym Mod1+e layout toggle split&lt;/p&gt;
+
+&lt;h1 id=&quot;toggle-tiling--floating&quot;&gt;toggle tiling / floating&lt;/h1&gt;
+&lt;p&gt;bindsym Mod1+Shift+space floating toggle&lt;/p&gt;
+
+&lt;h1 id=&quot;change-focus-between-tiling--floating-windows&quot;&gt;change focus between tiling / floating windows&lt;/h1&gt;
+&lt;p&gt;bindsym Mod1+space focus mode_toggle&lt;/p&gt;
+
+&lt;h1 id=&quot;focus-the-parent-container&quot;&gt;focus the parent container&lt;/h1&gt;
+&lt;p&gt;bindsym Mod1+a focus parent&lt;/p&gt;
+
+&lt;h1 id=&quot;focus-the-child-container&quot;&gt;focus the child container&lt;/h1&gt;
+&lt;p&gt;#bindsym Mod1+d focus child&lt;/p&gt;
+
+&lt;h1 id=&quot;move-the-currently-focused-window-to-the-scratchpad&quot;&gt;move the currently focused window to the scratchpad&lt;/h1&gt;
+&lt;p&gt;bindsym Mod1+Shift+minus move scratchpad&lt;/p&gt;
+
+&lt;h1 id=&quot;show-the-next-scratchpad-window-or-hide-the-focused-scratchpad-window&quot;&gt;Show the next scratchpad window or hide the focused scratchpad window.&lt;/h1&gt;
+&lt;h1 id=&quot;if-there-are-multiple-scratchpad-windows-this-command-cycles-through-them&quot;&gt;If there are multiple scratchpad windows, this command cycles through them.&lt;/h1&gt;
+&lt;p&gt;bindsym Mod1+minus scratchpad show&lt;/p&gt;
+
+&lt;h1 id=&quot;define-names-for-default-workspaces-for-which-we-configure-key-bindings-later-on&quot;&gt;Define names for default workspaces for which we configure key bindings later on.&lt;/h1&gt;
+&lt;h1 id=&quot;we-use-variables-to-avoid-repeating-the-names-in-multiple-places&quot;&gt;We use variables to avoid repeating the names in multiple places.&lt;/h1&gt;
+&lt;p&gt;set $ws1 “1”
+set $ws2 “2”
+set $ws3 “3”
+set $ws4 “4”
+set $ws5 “5”
+set $ws6 “6”
+set $ws7 “7”
+set $ws8 “8”
+set $ws9 “9”
+set $ws10 “10”&lt;/p&gt;
+
+&lt;h1 id=&quot;switch-to-workspace&quot;&gt;switch to workspace&lt;/h1&gt;
+&lt;p&gt;bindsym Mod1+1 workspace number $ws1
+bindsym Mod1+2 workspace number $ws2
+bindsym Mod1+3 workspace number $ws3
+bindsym Mod1+4 workspace number $ws4
+bindsym Mod1+5 workspace number $ws5
+bindsym Mod1+6 workspace number $ws6
+bindsym Mod1+7 workspace number $ws7
+bindsym Mod1+8 workspace number $ws8
+bindsym Mod1+9 workspace number $ws9
+bindsym Mod1+0 workspace number $ws10&lt;/p&gt;
+
+&lt;h1 id=&quot;move-focused-container-to-workspace&quot;&gt;move focused container to workspace&lt;/h1&gt;
+&lt;p&gt;bindsym Mod1+Shift+1 move container to workspace number $ws1
+bindsym Mod1+Shift+2 move container to workspace number $ws2
+bindsym Mod1+Shift+3 move container to workspace number $ws3
+bindsym Mod1+Shift+4 move container to workspace number $ws4
+bindsym Mod1+Shift+5 move container to workspace number $ws5
+bindsym Mod1+Shift+6 move container to workspace number $ws6
+bindsym Mod1+Shift+7 move container to workspace number $ws7
+bindsym Mod1+Shift+8 move container to workspace number $ws8
+bindsym Mod1+Shift+9 move container to workspace number $ws9
+bindsym Mod1+Shift+0 move container to workspace number $ws10&lt;/p&gt;
+
+&lt;h1 id=&quot;reload-the-configuration-file&quot;&gt;reload the configuration file&lt;/h1&gt;
+&lt;p&gt;bindsym Mod1+Shift+c reload&lt;/p&gt;
+&lt;h1 id=&quot;restart-i3-inplace-preserves-your-layoutsession-can-be-used-to-upgrade-i3&quot;&gt;restart i3 inplace (preserves your layout/session, can be used to upgrade i3)&lt;/h1&gt;
+&lt;p&gt;bindsym Mod1+Shift+r restart&lt;/p&gt;
+&lt;h1 id=&quot;exit-i3-logs-you-out-of-your-x-session&quot;&gt;exit i3 (logs you out of your X session)&lt;/h1&gt;
+&lt;p&gt;bindsym Mod1+Shift+e exec “i3-nagbar -t warning -m ‘You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.’ -B ‘Yes, exit i3’ ‘i3-msg exit’”&lt;/p&gt;
+
+&lt;h1 id=&quot;resize-window-you-can-also-use-the-mouse-for-that&quot;&gt;resize window (you can also use the mouse for that)&lt;/h1&gt;
+&lt;p&gt;mode “resize” {
+        # These bindings trigger as soon as you enter the resize mode&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    # Pressing left will shrink the window’s width.
+    # Pressing right will grow the window’s width.
+    # Pressing up will shrink the window’s height.
+    # Pressing down will grow the window’s height.
+    bindsym $left       resize shrink width 10 px or 10 ppt
+    bindsym $down       resize grow height 10 px or 10 ppt
+    bindsym $up         resize shrink height 10 px or 10 ppt
+    bindsym $right      resize grow width 10 px or 10 ppt
+
+    # same bindings, but for the arrow keys
+    bindsym Left        resize shrink width 10 px or 10 ppt
+    bindsym Down        resize grow height 10 px or 10 ppt
+    bindsym Up          resize shrink height 10 px or 10 ppt
+    bindsym Right       resize grow width 10 px or 10 ppt
+
+    # back to normal: Enter or Escape or Mod1+r
+    bindsym Return mode &quot;default&quot;
+    bindsym Escape mode &quot;default&quot;
+    bindsym Mod1+r mode &quot;default&quot; }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;bindsym Mod1+r mode “resize”&lt;/p&gt;
+
+&lt;h1 id=&quot;start-i3bar-to-display-a-workspace-bar-plus-the-system-information-i3status&quot;&gt;Start i3bar to display a workspace bar (plus the system information i3status&lt;/h1&gt;
+&lt;h1 id=&quot;finds-out-if-available&quot;&gt;finds out, if available)&lt;/h1&gt;
+&lt;p&gt;bar {
+        status_command i3status
+}&lt;/p&gt;
+
+&lt;p&gt;#######################################################################&lt;/p&gt;
+&lt;h1 id=&quot;automatically-start-i3-config-wizard-to-offer-the-user-to-create-a&quot;&gt;automatically start i3-config-wizard to offer the user to create a&lt;/h1&gt;
+&lt;h1 id=&quot;keysym-based-config-which-used-their-favorite-modifier-alt-or-windows&quot;&gt;keysym-based config which used their favorite modifier (alt or windows)&lt;/h1&gt;
+&lt;p&gt;#&lt;/p&gt;
+&lt;h1 id=&quot;i3-config-wizard-will-not-launch-if-there-already-is-a-config-file&quot;&gt;i3-config-wizard will not launch if there already is a config file&lt;/h1&gt;
+&lt;h1 id=&quot;in-configi3config-or-xdg_config_homei3config-if-set-or&quot;&gt;in ~/.config/i3/config (or $XDG_CONFIG_HOME/i3/config if set) or&lt;/h1&gt;
+&lt;h1 id=&quot;i3config&quot;&gt;~/.i3/config.&lt;/h1&gt;</content><author><name>Victoria Barnett</name></author><category term="docs" /><summary type="html">See my Github - i3config.</summary></entry></feed>
