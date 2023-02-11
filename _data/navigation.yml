@@ -1,0 +1,9 @@
+main:
+  - title: "Posts"
+    url: /posts/
+  - title: "Resume"
+    url: /resume/
+  - title: "Work History"
+    url: /work_history/
+  - title: "About"
+    url: /about/
