@@ -1,8 +1,11 @@
 ---
-layout: single
+layout: default
 title: Work History
 permalink: /work_history/
 ---
+
+### [Work History](/work_history/)
+
 | Company | Location | Position | Description | Timeframe |
 | --- | --- | ----| --- | --- |
 | Starbucks | Fort Walton Beach, FL | Barista | Inventory management, customer service, and cash handling experience. Prepared beverages according to customer preference. Maintained store signage & cleanliness. | March 2022 to August 2022 |

@@ -30,7 +30,9 @@ Military Connection: Technical Communication
 -   Served as a bridge of communication between multiple DoD vendors, test program managers, and base agencies in order to ensure timely requisition of engineering reports, technical data manuals, and hazard classification paperwork to meet federal and organizational shipment requirements in tight timeframes.
 -   Submitted 120+ written reports containing complete technical and safety data for untracked locally managed munitions in support of a global database deployment.
 -   Upgraded several local organization software tools to directly interface with Access, increasing throughput for administrative scheduling tasks and systematized the process.
--   Discovered and reported consistent on-going explosive hazard tracking errors in multiple interconnected databases for $400m of guided munitions, resulting in assisting the publishing of a global tech data update to ensure safe handling and proper explosive reclassification.
+-   Discovered and reported consistent on-going explosive hazard tracking errors in multiple interconnected databases for $400m of guided munitions, resulting in assisting with the publishing of a global tech data update to ensure safe handling and proper explosive reclassification.
+
+### Skills & Course Highlights
 
 | Skills| | | Courses | Institution | 
 |---|---|---|---|---|
