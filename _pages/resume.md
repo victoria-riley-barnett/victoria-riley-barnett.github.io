@@ -15,7 +15,7 @@ Motivated and detail-oriented software developer and former US Air Force Munitio
 
 ### Summary of Qualifications
 
-5 years experience working in secure munitions test environments in the USAF. Proven ability to thrive working in time-sensitive & documentation intensive environments. High attention to detail & technical mastery of position resulted in global safety data updates for over $400m in assets.
+5 years experience working in secure munitions test environments in the USAF. Proven ability to thrive working in time-sensitive & documentation intensive environments. High attention to detail & technical mastery of position resulted in global safety data updates for over $400m in assets. Dean's list CS undergrad student.
 
 #### Education & Certification
 
@@ -34,7 +34,7 @@ Military Connection: Technical Communication
 
 | Skills| | | Courses | Institution | 
 |---|---|---|---|---|
-| Javascript | Python | C++ | CS 110C/110B | CCSF
+| Javascript | Python | C++ | CS 110C/110B  | CCSF
 | Jekyll | Flask | Wordpress | CGS 2820 Web Design | Northwest Florida State College 
 | Gitlab | Github | Ruby | CS 17700 Programming with MM Objs | Purdue University
 | Workspace | Appscript | | CS 19000 Tools | Purdue University
