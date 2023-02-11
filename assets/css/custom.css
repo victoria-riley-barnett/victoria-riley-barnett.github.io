@@ -1,5 +1,15 @@
-@import "{{ site.theme }}";
-
+a:hover {
+  text-decoration-color: #55CDFC;
+}
+a:visited {
+  color: #F5A9B8;
+}
+a {
+  color: #F5A9B8;
+}
+.fas {
+  color: #F5A9B8;
+}
 .social-links {
     margin-left: auto;
     margin-right: auto;
