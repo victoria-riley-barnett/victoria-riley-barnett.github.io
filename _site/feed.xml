@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-11T16:36:29-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">victoriabarnett.codes</title><subtitle>A portfolio site, blog, and resume for Victoria Barnett using Jekyll, Github Pages, and mmistakes dark.</subtitle><author><name>Victoria Barnett</name></author><entry><title type="html">Communism ZSH Plugin</title><link href="http://localhost:4000/Communism/" rel="alternate" type="text/html" title="Communism ZSH Plugin" /><published>2023-02-11T01:03:50-08:00</published><updated>2023-02-11T01:03:50-08:00</updated><id>http://localhost:4000/Communism</id><content type="html" xml:base="http://localhost:4000/Communism/">&lt;p&gt;One of the earliest projects I did as I was learning Unix, starting with ZSH on my Macbook. I wrote a little plugin for oh-my-zsh that pulls a Marx quote with each new terminal session and adds some beautiful red imagery to your terminal.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-11T16:52:42-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">victoriabarnett.codes</title><subtitle>A portfolio site, blog, and resume for Victoria Barnett using Jekyll, Github Pages, and mmistakes dark.</subtitle><author><name>Victoria Barnett</name></author><entry><title type="html">Communism ZSH Plugin</title><link href="http://localhost:4000/Communism/" rel="alternate" type="text/html" title="Communism ZSH Plugin" /><published>2023-02-11T01:03:50-08:00</published><updated>2023-02-11T01:03:50-08:00</updated><id>http://localhost:4000/Communism</id><content type="html" xml:base="http://localhost:4000/Communism/">&lt;p&gt;One of the earliest projects I did as I was learning Unix, starting with ZSH on my Macbook. I wrote a little plugin for oh-my-zsh that pulls a Marx quote with each new terminal session and adds some beautiful red imagery to your terminal.&lt;/p&gt;
 
 &lt;p&gt;In the future I want to add more quotes and probably have configuration options for a much smaller hammer &amp;amp; sickle - more to come :)&lt;/p&gt;
 
@@ -17,6 +17,106 @@ git clone --depth-1 https://github.com/victoria-riley-barnett/Communism
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#Edit .zshrc to include your plugin. 
 plugins=(... communism)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#Change your name here if you don&apos;t like your Username
+name=${USERNAME}
+d=`date &apos;+%A %d-%B, %Y&apos;`
+
+quotes=(&quot;History repeats itself, first as tragedy, second as farce.  
+- Karl Marx&quot; &quot;Workers of the world unite; you have nothing to lose but your chains.  
+- Karl Marx&quot; &quot;Social progress can be measured by the social position of the female sex.  
+- Karl Marx&quot; &quot;The only antidote to mental suffering is physical pain.  
+- Karl Marx&quot; &quot;Capital is dead labor, which, vampire-like, lives only by sucking living labor, and lives the more, the more labor it sucks.  
+- Karl Marx&quot; &quot;The production of too many useful things results in too many useless people.  
+- Karl Marx&quot; &quot;Democracy is the road to socialism.  
+- Karl Marx&quot; &quot;From each according to his abilities, to each according to his needs.  
+- Karl Marx&quot; &quot;The rich will do anything for the poor but get off their backs.  
+- Karl Marx&quot; &quot;The theory of Communism may be summed up in one sentence: Abolish all private property.  
+- Karl Marx&quot; &quot;The ruling ideas of each age have ever been the ideas of its ruling class.  
+- Karl Marx&quot; &quot;The meaning of peace is the absence of opposition to socialism.  
+- Karl Marx&quot; &quot;Religion is the sigh of the oppressed creature, the heart of a heartless world, and the soul of soulless conditions. It is the opium of the people.  
+- Karl Marx&quot; &quot;Reason has always existed, but not always in a reasonable form.  
+- Karl Marx&quot; &quot;Let the ruling classes tremble at a communist revolution. The proletarians have nothing to lose but their chains. They have a world to win. Workingmen of all countries, unite!  
+- Karl Marx&quot; &quot;Religion is the opium of the masses.  
+- Karl Marx&quot; &quot;Revolutions are the locomotives of history.  
+- Karl Marx&quot; &quot;Necessity is blind until it becomes conscious. Freedom is the consciousness of necessity.  
+- Karl Marx&quot; &quot;If anything is certain, it is that I myself am not a Marxist.  
+- Karl Marx&quot; &quot;Art is always and everywhere the secret confession, and at the same time the immortal movement of its time.  
+- Karl Marx&quot; &quot;In bourgeois society capital is independent and has individuality, while the living person is dependent and has no individuality.  
+- Karl Marx&quot; &quot;Society does not consist of individuals but expresses the sum of interrelations, the relations within which these individuals stand.  
+- Karl Marx&quot; &quot;Nothing can have value without being an object of utility.  
+- Karl Marx&quot; &quot;Anyone who knows anything of history knows that great social changes are impossible without feminine upheaval. Social progress can be measured exactly by the social position of the fair sex, the ugly ones included. 
+- Karl Marx&quot; &quot;Religion is the impotence of the human mind to deal with occurrences it cannot understand.  
+- Karl Marx&quot; &quot;Medicine heals doubts as well as diseases.  
+- Karl Marx&quot; &quot;The first requisite for the happiness of the people is the abolition of religion.  
+- Karl Marx&quot; &quot;Landlords, like all other men, love to reap where they never sowed.  
+- Karl Marx&quot; &quot;Capital is reckless of the health or length of life of the laborer, unless under compulsion from society.  
+- Karl Marx&quot; &quot;History does nothing; it does not possess immense riches, it does not fight battles. It is men, real, living, who do all this.  
+- Karl Marx&quot; &quot;The more the division of labor and the application of machinery extend, the more does competition extend among the workers, the more do their wages shrink together.  
+- Karl Marx&quot; &quot;The worker of the world has nothing to lose, but their chains, workers of the world unite.  
+- Karl Marx&quot; &quot;While the miser is merely a capitalist gone mad, the capitalist is a rational miser.  
+- Karl Marx&quot; &quot;The writer must earn money in order to be able to live and to write, but he must by no means live and write for the purpose of making money.  
+- Karl Marx&quot; &quot;The human being is in the most literal sense a political animal, not merely a gregarious animal, but an animal which can individuate itself only in the midst of society.  
+- Karl Marx&quot; &quot;Capital is money, capital is commodities. By virtue of it being value, it has acquired the occult ability to add value to itself. It brings forth living offspring, or, at the least, lays golden eggs.  
+- Karl Marx&quot; &quot;The ideas of the ruling class are in every epoch the ruling ideas, i.e., the class which is the ruling material force of society, is at the same time its ruling intellectual force.  
+- Karl Marx&quot; &quot;Without doubt, machinery has greatly increased the number of well-to-do idlers.  
+- Karl Marx&quot; &quot;Natural science will in time incorporate into itself the science of man, just as the science of man will incorporate into itself natural science: there will be one science.  
+- Karl Marx&quot; &quot;Experience praises the most happy the one who made the most people happy.  
+- Karl Marx&quot; &quot;Capitalist production, therefore, develops technology, and the combining together of various processes into a social whole, only by sapping the original sources of all wealth - the soil and the labourer.  
+- Karl Marx&quot; &quot;A specter is haunting Europe - the specter of communism.  
+- Karl Marx&quot; &quot;We should not say that one man&apos;s hour is worth another man&apos;s hour, but rather that one man during an hour is worth just as much as another man during an hour. Time is everything, man is nothing: he is at the most time&apos;s carcass.  
+- Karl Marx&quot; &quot;There is a specter haunting Europe, the specter of Communism.  
+- Karl Marx&quot; &quot;In a higher phase of communist society... only then can the narrow horizon of bourgeois right be fully left behind and society inscribe on its banners: from each according to his ability, to each according to his needs.  
+- Karl Marx&quot; &quot;A commodity appears at first sight an extremely obvious, trivial thing. But its analysis brings out that it is a very strange thing, abounding in metaphysical subtleties and theological niceties.  
+- Karl Marx&quot; &quot;It is not history which uses men as a means of achieving - as if it were an individual person - its own ends. History is nothing but the activity of men in pursuit of their ends.  
+- Karl Marx&quot; &quot;The history of all previous societies has been the history of class struggles.  
+- Karl Marx&quot; &quot;Men&apos;s ideas are the most direct emanations of their material state.  
+- Karl Marx&quot; &quot;Machines were, it may be said, the weapon employed by the capitalists to quell the revolt of specialized labor.  
+- Karl Marx&quot; &quot;For the bureaucrat, the world is a mere object to be manipulated by him.  
+- Karl Marx&quot; &quot;The English have all the material requisites for the revolution. What they lack is the spirit of generalization and revolutionary ardour.  
+- Karl Marx&quot; &quot;The development of civilization and industry in general has always shown itself so active in the destruction of forests that everything that has been done for their conservation and production is completely insignificant in comparison.  
+- Karl Marx&quot; &quot;The writer may very well serve a movement of history as its mouthpiece, but he cannot of course create it.  
+- Karl Marx&quot; &quot;The country that is more developed industrially only shows, to the less developed, the image of its own future.  
+- Karl Marx&quot; &quot;Greek philosophy seems to have met with something with which a good tragedy is not supposed to meet, namely, a dull ending.  
+- Karl Marx&quot; &quot;It is absolutely impossible to transcend the laws of nature. What can change in historically different circumstances is only the form in which these laws expose themselves.  
+- Karl Marx&quot; &quot;On a level plain, simple mounds look like hills; and the insipid flatness of our present bourgeoisie is to be measured by the altitude of its great intellects.  
+- Karl Marx&quot; )
+
+# Seed random generator
+RANDOM=$$$(date +%s)
+
+selectedquote=${quotes[ $RANDOM % ${#quotes[@]} ]}
+
+echo
+echo &quot;\e[1;31m                     Hello, $name&quot;
+echo &quot;\e[1;31m  It is $d. And today Communism will win.&quot;
+echo &quot;\e[1;31m     
+                  !#########       #
+                !########!          ##!
+              !########!               ###
+          !##########                  ####
+        ######### #####                ######
+          !###!      !####!              ######
+            !           #####            ######!
+                          !####!         #######
+                            #####       #######
+                              !####!   #######!
+                                  ####!########
+              ##                   ##########
+            ,######!          !#############
+          ,#### ########################!####!
+        ,####&apos;     ##################!&apos;    #####
+      ,####&apos;            #######              !####!
+      ####&apos;                                      #####
+      ~##                                          ##~&quot;
+echo
+# Write to Shell
+echo &quot;\e[1;31m$selectedquote&quot;
+echo
+
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Victoria Barnett</name></author><category term="Projects" /><summary type="html">One of the earliest projects I did as I was learning Unix, starting with ZSH on my Macbook. I wrote a little plugin for oh-my-zsh that pulls a Marx quote with each new terminal session and adds some beautiful red imagery to your terminal.</summary></entry><entry><title type="html">Markdown Cheat Sheet</title><link href="http://localhost:4000/Markdown-cheat-sheet/" rel="alternate" type="text/html" title="Markdown Cheat Sheet" /><published>2023-02-11T00:53:00-08:00</published><updated>2023-02-11T00:53:00-08:00</updated><id>http://localhost:4000/Markdown-cheat-sheet</id><content type="html" xml:base="http://localhost:4000/Markdown-cheat-sheet/">&lt;p&gt;Credit to &lt;a href=&quot;https://www.markdownguide.org&quot;&gt;The Markdown Guide&lt;/a&gt; - this Markdown cheat sheet provides a quick overview of all the Markdown syntax elements and simultaneously lets me see them all styled.&lt;/p&gt;
 
 &lt;h3 id=&quot;jump-to-styled&quot;&gt;Jump to &lt;a href=&quot;#-styled&quot;&gt;Styled&lt;/a&gt;&lt;/h3&gt;
