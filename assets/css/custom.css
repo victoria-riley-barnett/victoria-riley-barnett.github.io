@@ -52,3 +52,15 @@ div.highlighter-rouge {
 .sidebar {
   opacity: .9;
 }
+form {
+  border-radius: .7vw;
+}
+form label {
+  color: #F5A9B8;
+}
+form button {
+  background-color: #F5A9B8;
+  color: black;
+  border: 0em;
+  border-radius: .7vw;
+}

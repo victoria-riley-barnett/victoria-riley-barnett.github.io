@@ -11,3 +11,7 @@ I know Javascript, Python, C++ and have previously done freelance and organizati
 ### Fun stuff & links
 - [last.fm](https://www.last.fm/user/victoriaposting) - I love music and scrobble my Spotify listening to last.fm! Recently I've been listening to a ton of post-punk & indie.
 - [Discord](https://discordapp.com/users/untrueneutral#7905) - I play Paradox map games like Victoria 3 & CK3 (I'm playing the Elder Kings 2 mod at the moment!), Magic TCG, Warhammer, and sometimes MMOs.
+
+### Contact me
+
+{% include contact-form.html %}
