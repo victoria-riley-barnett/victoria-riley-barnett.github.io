@@ -47,5 +47,8 @@ div.highlighter-rouge {
   border-radius: 1vw;
 }
 .author__urls li a {
-  font-size: .8em;
+  font-size: .9em;
+}
+.sidebar {
+  opacity: .9;
 }
