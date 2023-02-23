@@ -9,25 +9,24 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>victoriabarnett.codes</title>
-<meta name="description" content="A portfolio site, blog, and resume for Victoria Barnett using Jekyll, Github Pages, and mmistakes dark.">
+<!-- begin _includes/seo.html --><title>Markdown Cheat Sheet - victoriabarnett.codes</title>
+<meta name="description" content="Credit to The Markdown Guide - this Markdown cheat sheet provides a quick overview of all the Markdown syntax elements and simultaneously lets me see them all styled.">
 
 
   <meta name="author" content="Victoria Barnett">
   
+  <meta property="article:author" content="Victoria Barnett">
+  
 
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="victoriabarnett.codes">
-<meta property="og:title" content="victoriabarnett.codes">
-<meta property="og:url" content="http://localhost:4000/">
+<meta property="og:title" content="Markdown Cheat Sheet">
+<meta property="og:url" content="http://localhost:4000/Markdown-cheat-sheet/">
 
 
-  <meta property="og:description" content="A portfolio site, blog, and resume for Victoria Barnett using Jekyll, Github Pages, and mmistakes dark.">
-
-
-
+  <meta property="og:description" content="Credit to The Markdown Guide - this Markdown cheat sheet provides a quick overview of all the Markdown syntax elements and simultaneously lets me see them all styled.">
 
 
 
@@ -35,9 +34,14 @@
 
 
 
+  <meta property="article:published_time" content="2023-02-11T00:53:00-08:00">
 
 
-<link rel="canonical" href="http://localhost:4000/">
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/Markdown-cheat-sheet/">
 
 
 
@@ -90,7 +94,7 @@
 
   </head>
 
-  <body class="layout--home">
+  <body class="layout--posts">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -110,17 +114,22 @@
         
         <a class="site-title" href="/">
           victoriabarnett.codes
-          <span class="site-subtitle">A portfolio site & blog</span>
+          <span class="site-subtitle">A portfolio site &amp; blog</span>
         </a>
-        <ul class="visible-links"><li class="masthead__menu-item">
+        <ul class="visible-links">
+<li class="masthead__menu-item">
               <a href="/posts/">Posts</a>
-            </li><li class="masthead__menu-item">
+            </li>
+<li class="masthead__menu-item">
               <a href="/resume/">Resume</a>
-            </li><li class="masthead__menu-item">
+            </li>
+<li class="masthead__menu-item">
               <a href="/work_history/">Work History</a>
-            </li><li class="masthead__menu-item">
+            </li>
+<li class="masthead__menu-item">
               <a href="/about/">About</a>
-            </li></ul>
+            </li>
+</ul>
         
         <button class="search__toggle" type="button">
           <span class="visually-hidden">Toggle search</span>
@@ -258,36 +267,299 @@
 
   <div class="archive">
     
-      <h1 id="page-title" class="page__title"></h1>
+      <h1 id="page-title" class="page__title">Markdown Cheat Sheet</h1>
     
-    <h3 id="hi">Hi,</h3>
-<p>I'm Victoria, a software dev & student based in San Francisco. I'm a CS major at City College of San Francisco, planning on swapping into Data Science at either USF or SF State in Spring 2024, but I'm applying to multiple schools around the Bay Area. I did one enlistment in the U.S. Air Force ending in 2021 and have been in school and/or a part-time barista since then.</p>
+    <p>Credit to <a href="https://www.markdownguide.org">The Markdown Guide</a> - this Markdown cheat sheet provides a quick overview of all the Markdown syntax elements and simultaneously lets me see them all styled.</p>
 
-<p>I know Javascript, Python, C++ and have previously done freelance and organizational webdev work. I also do events A/V, and really enjoy hardware projects - I like to know the functional side of how everything works! Recently I’ve gotten really into Obsidian notetaking and arch linux, and I'm trying to slowly force myself onto Vim and off of VS Code.</p>
+<h3 id="jump-to-styled">Jump to <a href="#-styled">Styled</a>
+</h3>
+<hr>
 
-<p>I'm actively applying and hunting for an internship for Summer 2023 and/or a position while I continue school - feel free to <a href="/about/#contact-me">reach out to me!</a></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## Basic Syntax
 
-<h3>Posts by tags: </h3>
+These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.
+
+### Heading
+
+# H1
+## H2
+### H3
+
+### Bold
+
+**bold text**
+
+### Italic
+
+*italicized text*
+
+### Blockquote
+
+&gt; blockquote
+
+### Ordered List
+
+1. First item
+2. Second item
+3. Third item
+
+### Unordered List
+
+- First item
+- Second item
+- Third item
+
+### Code
+
+`code`
+
+### Horizontal Rule
+
+---
+
+### Link
+
+[victoriabarnett.codes](https://www.victoriabarnett.codes)
+
+### Image
+
+![alt text](https://www.markdownguide.org/assets/images/tux.png)
+
+## Extended Syntax
+
+These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
+
+### Table
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+</code></pre></div></div>
+<h3 id="fenced-code-block">Fenced Code Block</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>### Footnote
+
+Here's a sentence with a footnote. [^1]
+
+[^1]: This is the footnote.
+
+### Heading ID
+
+### My Great Heading {#custom-id}
+
+### Definition List
+
+term
+: definition
+
+### Strikethrough
+
+~~The world is flat.~~
+
+### Task List
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+### Emoji
+
+That is so funny! :joy:
+
+(See also [Copying and Pasting Emoji](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji))
+
+### Highlight
+
+I need to highlight these ==very important words==.
+
+### Subscript
+
+H~2~O
+
+### Superscript
+
+X^2^
+</code></pre></div></div>
+
+<h3 id="styled"><a id="-styled" href="#-styled">Styled</a></h3>
+
+<h3 id="jump-to-code">Jump to <a href="#">Code</a>
+</h3>
+<hr>
+
+<h2 id="basic-syntax">Basic Syntax</h2>
+
+<p>These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.</p>
+
+<h3 id="heading">Heading</h3>
+
+<h1 id="h1">H1</h1>
+<h2 id="h2">H2</h2>
+<h3 id="h3">H3</h3>
+
+<h3 id="bold">Bold</h3>
+
+<p><strong>bold text</strong></p>
+
+<h3 id="italic">Italic</h3>
+
+<p><em>italicized text</em></p>
+
+<h3 id="blockquote">Blockquote</h3>
+
+<blockquote>
+  <p>blockquote</p>
+</blockquote>
+
+<h3 id="ordered-list">Ordered List</h3>
+
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+</ol>
+
+<h3 id="unordered-list">Unordered List</h3>
+
+<ul>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+</ul>
+
+<h3 id="code">Code</h3>
+
+<p><code class="language-plaintext highlighter-rouge">code</code></p>
+
+<h3 id="horizontal-rule">Horizontal Rule</h3>
+
+<hr>
+
+<h3 id="link">Link</h3>
+
+<p><a href="https://www.victoriabarnett.codes">victoriabarnett.codes</a></p>
+
+<h3 id="image">Image</h3>
+
+<p><img src="https://www.markdownguide.org/assets/images/tux.png" alt="alt text"></p>
+
+<h2 id="extended-syntax">Extended Syntax</h2>
+
+<p>These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.</p>
+
+<h3 id="table">Table</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Syntax</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Header</td>
+      <td>Title</td>
+    </tr>
+    <tr>
+      <td>Paragraph</td>
+      <td>Text</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="fenced-code-block-1">Fenced Code Block</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+</code></pre></div></div>
+
+<h3 id="footnote">Footnote</h3>
+
+<p>Here’s a sentence with a footnote. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+
+<h3 id="heading-id">Heading ID</h3>
+
+<h3 id="custom-id">My Great Heading</h3>
+
+<h3 id="definition-list">Definition List</h3>
+
+<dl>
+  <dt>term</dt>
+  <dd>definition</dd>
+</dl>
+
+<h3 id="strikethrough">Strikethrough</h3>
+
+<p><del>The world is flat.</del></p>
+
+<h3 id="task-list">Task List</h3>
+
+<ul class="task-list">
+  <li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox" disabled checked>Write the press release</li>
+  <li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox" disabled>Update the website</li>
+  <li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox" disabled>Contact the media</li>
+</ul>
+
+<h3 id="emoji">Emoji</h3>
+
+<p>That is so funny! <img class="emoji" title=":joy:" alt=":joy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f602.png" height="20" width="20"></p>
+
+<p>(See also <a href="https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji">Copying and Pasting Emoji</a>)</p>
+
+<h3 id="highlight">Highlight</h3>
+
+<p>I need to highlight these ==very important words==.</p>
+
+<h3 id="subscript">Subscript</h3>
+
+<p>H~2~O</p>
+
+<h3 id="superscript">Superscript</h3>
+
+<p>X^2^</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>This is the footnote. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+  </ol>
+</div>
 
 
-  <p>Documentation</p>
-  <ul>
-    
-      <li><a href="/Markdown-cheat-sheet/">Markdown Cheat Sheet</a></li>
-    
-      <li><a href="/i3config/">i3 config</a></li>
-    
-  </ul>
-
-
-<h3 class="archive__subtitle">Recent Posts</h3>
-
-
-
-
-<div class="entries-list">
+<ul class="taxonomy__index">
   
-    
+  
+    <li>
+      <a href="#2023">
+        <strong>2023</strong> <span class="taxonomy__count">3</span>
+      </a>
+    </li>
+  
+</ul>
+
+
+
+
+  <section id="2023" class="taxonomy__section">
+    <h2 class="archive__subtitle">2023</h2>
+    <div class="entries-list">
+      
+        
 
 
 
@@ -314,7 +586,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          6 minute read
+          3 minute read
         
       </span>
     
@@ -327,8 +599,8 @@
   </article>
 </div>
 
-  
-    
+      
+        
 
 
 
@@ -366,8 +638,8 @@
   </article>
 </div>
 
-  
-    
+      
+        
 
 
 
@@ -407,10 +679,10 @@
   </article>
 </div>
 
-  
-</div>
-
-
+      
+    </div>
+    <a href="#page-title" class="back-to-top">Back to Top ↑</a>
+  </section>
 
 
   </div>
@@ -419,13 +691,15 @@
 
     
       <div class="search-content">
-        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+        <div class="search-content__inner-wrap">
+<form class="search-content__form" onkeydown="return event.key != 'Enter';">
     <label class="sr-only" for="search">
       Enter your search term...
     </label>
-    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term...">
   </form>
-  <div id="results" class="results"></div></div>
+  <div id="results" class="results"></div>
+</div>
 
       </div>
     
@@ -453,9 +727,9 @@
     </ul>
   </div>
   
-  <div class="page__footer-copyright">&copy; 2023 Victoria Barnett.
+  <div class="page__footer-copyright">© 2023 Victoria Barnett.
   
-      </footer>
+      
     </div>
 
     
@@ -474,5 +748,6 @@
 
 
 
-  </body>
+  </footer>
+</div></body>
 </html>
