@@ -30,4 +30,4 @@ Motivated and detail-oriented Computer Science student & former US Air Force Mun
 | Javascript | Python            | C++                   | CS 110C/110B                      | City College of San Francisco   |
 | Jekyll     | Flask             | Wordpress             | CGS 2820 Web Design               | Northwest Florida State College |
 | Gitlab     | Github            | Ruby                  | CS 17700 Programming with MM Objs | Purdue University               |
-| Linux/Cli  | Computer Hardware | A/V tech/Broadcasting | CS 19000 Tools                    | Purdue University               |
+| Linux/Cli  | LaTeX/MathJax     | A/V tech/Broadcasting | CS 19000 Tools                    | Purdue University               |
