@@ -13,7 +13,7 @@ var store = [{
       },{
         "title": "C++ Exercises",
         "excerpt":"C++ Exercises My two most recent courses have focused on programming in C++ and building up intermediate skills in Computer Science, learning things such as encapsulation, abstraction, class implementation, and ADT templating. I have a repo of my coursework (on a slight delay) on my github - please do check...","categories": [],
-        "tags": [],
+        "tags": ["Programming"],
         "url": "/CppExercises/",
         "teaser": null
       }]

@@ -73,6 +73,9 @@ author:
     - label: "v@victoriabarnett.codes"
       icon: "fa fa-envelope"
       url: "mailto:v@victoriabarnett.codes"
+    - label: LinkedIn
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/victoriabarnett0/"
 
 footer:
   links:
