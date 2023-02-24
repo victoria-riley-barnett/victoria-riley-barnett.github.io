@@ -22,9 +22,9 @@
 <loc>http://localhost:4000/posts/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/work_history/</loc>
+<loc>http://localhost:4000/resume/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/_pages/resume/</loc>
+<loc>http://localhost:4000/work_history/</loc>
 </url>
 </urlset>
