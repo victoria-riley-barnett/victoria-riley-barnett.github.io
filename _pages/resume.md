@@ -1,5 +1,12 @@
-Victoria Barnett
-[victoria.022@proton.me](mailto:victoria.022@proton.me) | San Francisco, CA
+---
+layout: single
+title: resume
+permalink: /resume/
+---
+
+# Victoria Barnett
+
+## [victoria.022@proton.me](mailto:victoria.022@proton.me) | San Francisco, CA
 
 ## Objective
 
