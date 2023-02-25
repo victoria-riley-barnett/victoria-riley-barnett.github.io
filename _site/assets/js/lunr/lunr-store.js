@@ -11,6 +11,12 @@ var store = [{
         "url": "/Markdown-cheat-sheet/",
         "teaser": null
       },{
+        "title": "A ZSH Plugin",
+        "excerpt":"One of the earliest projects I did as I was learning Unix, starting with ZSH on my Macbook. I wrote a little plugin for oh-my-zsh that pulls a Marx quote with each new terminal session and adds some beautiful red imagery to your terminal. In the future I want to...","categories": [],
+        "tags": ["Projects"],
+        "url": "/ZSHplugin/",
+        "teaser": null
+      },{
         "title": "C++ Exercises",
         "excerpt":"C++ Exercises My two most recent courses have focused on programming in C++ and building up intermediate skills in Computer Science, learning things such as encapsulation, abstraction, class implementation, and ADT templating. I have a repo of my coursework (on a slight delay) on my github - please do check...","categories": [],
         "tags": ["Programming"],
