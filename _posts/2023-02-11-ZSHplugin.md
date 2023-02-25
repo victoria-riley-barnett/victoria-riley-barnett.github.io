@@ -2,7 +2,7 @@
 layout: posts
 title:  "A ZSH Plugin"
 date:   2023-02-11 02:03:50 -0700
-tags: Projects
+tags: Projects Programming
 ---
 
 One of the earliest projects I did as I was learning Unix, starting with ZSH on my Macbook. I wrote a little plugin for oh-my-zsh that pulls a Marx quote with each new terminal session and adds some beautiful red imagery to your terminal. 

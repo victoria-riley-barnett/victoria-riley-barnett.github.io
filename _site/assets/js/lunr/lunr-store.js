@@ -13,7 +13,7 @@ var store = [{
       },{
         "title": "A ZSH Plugin",
         "excerpt":"One of the earliest projects I did as I was learning Unix, starting with ZSH on my Macbook. I wrote a little plugin for oh-my-zsh that pulls a Marx quote with each new terminal session and adds some beautiful red imagery to your terminal. In the future I want to...","categories": [],
-        "tags": ["Projects"],
+        "tags": ["Projects","Programming"],
         "url": "/ZSHplugin/",
         "teaser": null
       },{
