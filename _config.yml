@@ -48,6 +48,7 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+google_analytics: G-WRCH4C2WL2
 
 plugins:
   - jekyll-feed
@@ -58,7 +59,6 @@ plugins:
   - jemoji
   - jekyll-paginate
   - jekyll-gist
-  - jekyll-analytics
 
 author:
   name   : "Victoria Barnett"
@@ -110,8 +110,3 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-
-jekyll_analytics:
-  GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: G-C1RB18ED63          # Required - replace with your tracking id
-    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
