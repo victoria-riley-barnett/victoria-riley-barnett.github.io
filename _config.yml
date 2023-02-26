@@ -58,6 +58,7 @@ plugins:
   - jemoji
   - jekyll-paginate
   - jekyll-gist
+  - jekyll-analytics
 
 author:
   name   : "Victoria Barnett"
@@ -109,3 +110,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: G-C1RB18ED63          # Required - replace with your tracking id
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking

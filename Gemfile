@@ -23,6 +23,7 @@ group :jekyll_plugins do
   gem "jekyll-paginate"
   gem "jemoji"
   gem "jekyll-gist"
+  gem 'jekyll-analytics'
 
 end
 
