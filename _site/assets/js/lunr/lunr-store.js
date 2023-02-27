@@ -22,4 +22,10 @@ var store = [{
         "tags": ["Programming"],
         "url": "/CppExercises/",
         "teaser": null
+      },{
+        "title": "mia-reader",
+        "excerpt":"A marxist internet archive reading mirror Links Github Marxist Internet Archive Introduction One of the only bad things about free internet archives is that they usually exist in the state they were uploaded in. In the case of the Marxist Internet Archive, this is doubly true - not only does...","categories": [],
+        "tags": ["Projects","Programming"],
+        "url": "/mia-reader/",
+        "teaser": null
       }]

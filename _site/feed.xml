@@ -1,4 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://victoriabarnett.codes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://victoriabarnett.codes/" rel="alternate" type="text/html" /><updated>2023-02-26T10:51:59-08:00</updated><id>https://victoriabarnett.codes/feed.xml</id><title type="html">victoriabarnett.codes</title><subtitle>A portfolio site, blog, and resume for Victoria Barnett using Jekyll, Github Pages, and mmistakes dark.</subtitle><author><name>Victoria Barnett</name></author><entry><title type="html">C++ Exercises</title><link href="https://victoriabarnett.codes/CppExercises/" rel="alternate" type="text/html" title="C++ Exercises" /><published>2023-02-23T13:55:00-08:00</published><updated>2023-02-23T13:55:00-08:00</updated><id>https://victoriabarnett.codes/CppExercises</id><content type="html" xml:base="https://victoriabarnett.codes/CppExercises/">&lt;h1 id=&quot;c-exercises&quot;&gt;C++ Exercises&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-27T02:47:57-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">victoriabarnett.codes</title><subtitle>A portfolio site, blog, and resume for Victoria Barnett using Jekyll, Github Pages, and mmistakes dark.</subtitle><author><name>Victoria Barnett</name></author><entry><title type="html">mia-reader</title><link href="http://localhost:4000/mia-reader/" rel="alternate" type="text/html" title="mia-reader" /><published>2023-02-27T01:03:50-08:00</published><updated>2023-02-27T01:03:50-08:00</updated><id>http://localhost:4000/mia-reader</id><content type="html" xml:base="http://localhost:4000/mia-reader/">&lt;h1 id=&quot;a-marxist-internet-archive-reading-mirror&quot;&gt;A marxist internet archive reading mirror&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/9009959/221525776-f597e8fe-565d-4ffb-8405-554232ac434a.png&quot; alt=&quot;2023-02-27_01-28&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;links&quot;&gt;Links&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/victoria-riley-barnett/mia-reader&quot;&gt;Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.marxists.org/&quot;&gt;Marxist Internet Archive&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;One of the only bad things about free internet archives is that they usually exist in the state they were uploaded in. In the case of the Marxist Internet Archive, this is doubly true - not only does it use really ugly html for most of its pages, the format and css created for those pages is not consistent and is in most cases difficult to read. The standard use-case for the archvie as such then, as I’ve seen it used amongst reading groups and other users, is to either copy all of the text from a given archive page and rehost it on Google docs for collaborative commenting, or to download the provided pdf/epub/mobi files and read them on a device. The goal of mia-reader is to provide a free mirror of Marxist Internet Archive content that is easy to read and navigate regardless of device, can automatically export to Google docs, and can generate pdf/epub/mobi files for offline reading on demand.&lt;/p&gt;
+
+&lt;h2 id=&quot;launch&quot;&gt;Launch&lt;/h2&gt;
+&lt;p&gt;To launch, I’m starting with a mirror of both the Selected Marxists section and the Marx-Engels-Lenin section of the archive, two of the most popular sections of the archive. As I don’t have official mirror status with mia to use rsync and Apache to mirror the site, all mirror sections are manually generated using a combination of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wget&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;find&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sed&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pandoc&lt;/code&gt;, and good old manual editing.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-process&quot;&gt;The Process&lt;/h2&gt;
+&lt;p&gt;So far, my process for generating each section is as follows:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Download the html for the section using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wget -mpE -w .5 --limit-rate=500k -r --level=2  https://www.marxists.org/archive/your-category-here (initial section was: arvhive/marx/works/sw/progress-publishers/one-volume.htm)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;find&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pandoc&lt;/code&gt; to convert all html files to markdown files using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;find ./ -iname &quot;*.htm&quot; -type f -exec sh -c &apos;pandoc &quot;${0}&quot; -o &quot;${0%.*}.md&quot;&apos; {} \;&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bash&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sed&lt;/code&gt; to insert Jekyll front matter into all .md files&lt;/li&gt;
+  &lt;li&gt;Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;find&lt;/code&gt; again to remove all .htm files using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;find . -type f -iname &quot;*.html&quot; -delete&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Manually lint files for errors, readability, and consistency&lt;/li&gt;
+  &lt;li&gt;Manually edit files to add links to other files in the archive&lt;/li&gt;
+  &lt;li&gt;Manually edit files to add proper jekyll nav structure to front matter&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;the-tools&quot;&gt;The tools&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; - Jekyll is a static site generator that uses markdown files to generate html pages. While static-content generators don’t fit every use-case, they are great for sites like mia-reader that don’t need to be updated frequently, and markdown is the perfect format to use for both web hosting and generating other file types from. Jekyll is free and I also use it for this blog!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pandoc.org/&quot;&gt;Pandoc&lt;/a&gt; - Pandoc is a great tool for converting between file formats. I use it to convert html to markdown, but it can also convert between many other formats, including pdf, epub, and mobi, html, docx, LaTeX, and many more.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/just-the-docs/just-the-docs&quot;&gt;Just-the-docs&lt;/a&gt; - Just-the-docs is a Jekyll theme primarily meant for documentation sites, but I think it’s navigation structure is perfect for a site like mia-reader. It’s also very easy to customize, free to use, has easy gh-pages hosting(though I’m not using it), and is very well documented.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://fontawesome.com/&quot;&gt;Font Awesome&lt;/a&gt; - Font Awesome is tool for adding icons to your site. I use it for the search icon and my light/dark mode toggle.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gnu.org/software/wget/&quot;&gt;wget&lt;/a&gt; - wget is a great tool for downloading files from the internet. It has a ton of options and has made the process of downloading from the archive much easier.&lt;/li&gt;
+  &lt;li&gt;[&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;the-future&quot;&gt;The Future&lt;/h2&gt;
+&lt;p&gt;I plan to continue expanding mia-reader. Some of the things I’d like to add are:&lt;/p&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;A search function&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Comphrensive contribution guide with the goal of making it easy for anyone to contribute, and getting more sections on mia-reader&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;User configurable options for dark mode&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;User configurable options for font size, font type, and line spacing&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;A way to automatically generate a pdf/epub/mobi file for offline reading&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;A way to automatically generate a Google docs file for collaborative reading
+    &lt;ul&gt;
+      &lt;li&gt;Google Drive API can do this, but my link structure is not stable enough to use it yet (will need to host on a domain first)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Become an official mirror of the archive so I can do much more of this automatically and get new content as it’s added to the archive&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Would love multiple languages but I’m hesitant to add them at the moment, as my linting process is very manual and I couldn’t guarantee the quality of the translations after my conversion process.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;and finally, as ever:&lt;/p&gt;
+
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Add more sections of the archive&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;contributing&quot;&gt;Contributing&lt;/h2&gt;
+&lt;p&gt;For more detailed technical information or to get involved, checkout the &lt;a href=&quot;https://github.com/victoria-riley-barnett/mia-reader/blob/main/CONTRIBUTING.md&quot;&gt;contribution guide on Github&lt;/a&gt;. If you have any questions, feel free to open an issue on Github or contact me!&lt;/p&gt;</content><author><name>Victoria Barnett</name></author><category term="Projects" /><category term="Programming" /><summary type="html">A marxist internet archive reading mirror</summary></entry><entry><title type="html">C++ Exercises</title><link href="http://localhost:4000/CppExercises/" rel="alternate" type="text/html" title="C++ Exercises" /><published>2023-02-23T13:55:00-08:00</published><updated>2023-02-23T13:55:00-08:00</updated><id>http://localhost:4000/CppExercises</id><content type="html" xml:base="http://localhost:4000/CppExercises/">&lt;h1 id=&quot;c-exercises&quot;&gt;C++ Exercises&lt;/h1&gt;
 
 &lt;p&gt;My two most recent courses have focused on programming in C++ and building up intermediate skills in Computer Science, learning things such as encapsulation, abstraction, class implementation, and ADT templating. I have a repo of my coursework (on a slight delay) on &lt;a href=&quot;https://github.com/victoria-riley-barnett/cpp-code&quot;&gt;my github&lt;/a&gt; - please do check it out!&lt;/p&gt;
 
@@ -301,7 +363,7 @@ ERROR: getEntry() using invalid position
 Your track name is No Track
 Go again? (y/n) n
 Rock on! */&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Victoria Barnett</name></author><category term="Programming" /><summary type="html">C++ Exercises</summary></entry><entry><title type="html">A ZSH Plugin</title><link href="https://victoriabarnett.codes/ZSHplugin/" rel="alternate" type="text/html" title="A ZSH Plugin" /><published>2023-02-11T01:03:50-08:00</published><updated>2023-02-11T01:03:50-08:00</updated><id>https://victoriabarnett.codes/ZSHplugin</id><content type="html" xml:base="https://victoriabarnett.codes/ZSHplugin/">&lt;p&gt;One of the earliest projects I did as I was learning Unix, starting with ZSH on my Macbook. I wrote a little plugin for oh-my-zsh that pulls a Marx quote with each new terminal session and adds some beautiful red imagery to your terminal.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Victoria Barnett</name></author><category term="Programming" /><summary type="html">C++ Exercises</summary></entry><entry><title type="html">A ZSH Plugin</title><link href="http://localhost:4000/ZSHplugin/" rel="alternate" type="text/html" title="A ZSH Plugin" /><published>2023-02-11T01:03:50-08:00</published><updated>2023-02-11T01:03:50-08:00</updated><id>http://localhost:4000/ZSHplugin</id><content type="html" xml:base="http://localhost:4000/ZSHplugin/">&lt;p&gt;One of the earliest projects I did as I was learning Unix, starting with ZSH on my Macbook. I wrote a little plugin for oh-my-zsh that pulls a Marx quote with each new terminal session and adds some beautiful red imagery to your terminal.&lt;/p&gt;
 
 &lt;p&gt;In the future I want to add more quotes and probably have configuration options for a much smaller hammer &amp;amp; sickle - more to come :)&lt;/p&gt;
 
@@ -420,7 +482,7 @@ echo
 echo &quot;\e[1;31m$selectedquote&quot;
 echo
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Victoria Barnett</name></author><category term="Projects" /><category term="Programming" /><summary type="html">One of the earliest projects I did as I was learning Unix, starting with ZSH on my Macbook. I wrote a little plugin for oh-my-zsh that pulls a Marx quote with each new terminal session and adds some beautiful red imagery to your terminal.</summary></entry><entry><title type="html">Markdown Cheat Sheet</title><link href="https://victoriabarnett.codes/Markdown-cheat-sheet/" rel="alternate" type="text/html" title="Markdown Cheat Sheet" /><published>2023-02-11T00:53:00-08:00</published><updated>2023-02-11T00:53:00-08:00</updated><id>https://victoriabarnett.codes/Markdown-cheat-sheet</id><content type="html" xml:base="https://victoriabarnett.codes/Markdown-cheat-sheet/">&lt;p&gt;Credit to &lt;a href=&quot;https://www.markdownguide.org&quot;&gt;The Markdown Guide&lt;/a&gt; - this Markdown cheat sheet provides a quick overview of all the Markdown syntax elements and simultaneously lets me see them all styled.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Victoria Barnett</name></author><category term="Projects" /><category term="Programming" /><summary type="html">One of the earliest projects I did as I was learning Unix, starting with ZSH on my Macbook. I wrote a little plugin for oh-my-zsh that pulls a Marx quote with each new terminal session and adds some beautiful red imagery to your terminal.</summary></entry><entry><title type="html">Markdown Cheat Sheet</title><link href="http://localhost:4000/Markdown-cheat-sheet/" rel="alternate" type="text/html" title="Markdown Cheat Sheet" /><published>2023-02-11T00:53:00-08:00</published><updated>2023-02-11T00:53:00-08:00</updated><id>http://localhost:4000/Markdown-cheat-sheet</id><content type="html" xml:base="http://localhost:4000/Markdown-cheat-sheet/">&lt;p&gt;Credit to &lt;a href=&quot;https://www.markdownguide.org&quot;&gt;The Markdown Guide&lt;/a&gt; - this Markdown cheat sheet provides a quick overview of all the Markdown syntax elements and simultaneously lets me see them all styled.&lt;/p&gt;
 
 &lt;h3 id=&quot;jump-to-styled&quot;&gt;Jump to &lt;a href=&quot;#-styled&quot;&gt;Styled&lt;/a&gt;&lt;/h3&gt;
 &lt;hr /&gt;
@@ -684,7 +746,7 @@ X^2^
       &lt;p&gt;This is the footnote. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Victoria Barnett</name></author><category term="Documentation" /><summary type="html">Credit to The Markdown Guide - this Markdown cheat sheet provides a quick overview of all the Markdown syntax elements and simultaneously lets me see them all styled.</summary></entry><entry><title type="html">i3 config</title><link href="https://victoriabarnett.codes/i3config/" rel="alternate" type="text/html" title="i3 config" /><published>2023-02-11T00:51:38-08:00</published><updated>2023-02-11T00:51:38-08:00</updated><id>https://victoriabarnett.codes/i3config</id><content type="html" xml:base="https://victoriabarnett.codes/i3config/">&lt;p&gt;See my &lt;a href=&quot;https://github.com/victoria-riley-barnett/i3config&quot;&gt;Github - i3config&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Victoria Barnett</name></author><category term="Documentation" /><summary type="html">Credit to The Markdown Guide - this Markdown cheat sheet provides a quick overview of all the Markdown syntax elements and simultaneously lets me see them all styled.</summary></entry><entry><title type="html">i3 config</title><link href="http://localhost:4000/i3config/" rel="alternate" type="text/html" title="i3 config" /><published>2023-02-11T00:51:38-08:00</published><updated>2023-02-11T00:51:38-08:00</updated><id>http://localhost:4000/i3config</id><content type="html" xml:base="http://localhost:4000/i3config/">&lt;p&gt;See my &lt;a href=&quot;https://github.com/victoria-riley-barnett/i3config&quot;&gt;Github - i3config&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# i3 config file
 
