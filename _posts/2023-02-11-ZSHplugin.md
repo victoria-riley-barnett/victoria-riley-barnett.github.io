@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "A ZSH Plugin"
-date:   2023-02-11 02:03:50 -0700
+title: A ZSH Plugin
+date: 2023-02-11 02:03:50 -0700
 tags: Projects Programming
 ---
 

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/i3config/</loc>
-<lastmod>2023-02-11T00:51:38-08:00</lastmod>
+<loc>http://localhost:4000/Markdown-cheat-sheet/</loc>
+<lastmod>0023-02-11T00:53:00-08:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/Markdown-cheat-sheet/</loc>
-<lastmod>2023-02-11T00:53:00-08:00</lastmod>
+<loc>http://localhost:4000/i3config/</loc>
+<lastmod>2023-02-11T00:51:38-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/ZSHplugin/</loc>
@@ -17,7 +17,7 @@
 <lastmod>2023-02-23T13:55:00-08:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/mia-reader/</loc>
+<loc>http://localhost:4000/miareader/</loc>
 <lastmod>2023-02-27T01:03:50-08:00</lastmod>
 </url>
 <url>

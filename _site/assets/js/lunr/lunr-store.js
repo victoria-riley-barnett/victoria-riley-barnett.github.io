@@ -1,14 +1,14 @@
 var store = [{
-        "title": "i3 config",
-        "excerpt":"See my Github - i3config. # i3 config file This config file uses keycodes (bindsym) and was written for the QWERTY layout. # Font for window titles. Will also be used by the bar unless a different font # is used in the bar {} block below. font pango:monospace 8...","categories": [],
-        "tags": ["Documentation"],
-        "url": "/i3config/",
-        "teaser": null
-      },{
         "title": "Markdown Cheat Sheet",
         "excerpt":"Credit to The Markdown Guide - this Markdown cheat sheet provides a quick overview of all the Markdown syntax elements and simultaneously lets me see them all styled. Jump to Styled ## Basic Syntax These are the elements outlined in John Gruber’s original design document. All Markdown applications support these...","categories": [],
         "tags": ["Documentation"],
         "url": "/Markdown-cheat-sheet/",
+        "teaser": null
+      },{
+        "title": "i3 config",
+        "excerpt":"See my Github - i3config. # i3 config file This config file uses keycodes (bindsym) and was written for the QWERTY layout. # Font for window titles. Will also be used by the bar unless a different font # is used in the bar {} block below. font pango:monospace 8...","categories": [],
+        "tags": ["Documentation"],
+        "url": "/i3config/",
         "teaser": null
       },{
         "title": "A ZSH Plugin",
@@ -23,9 +23,9 @@ var store = [{
         "url": "/CppExercises/",
         "teaser": null
       },{
-        "title": "mia-reader",
+        "title": "mia reader",
         "excerpt":"A marxist internet archive reading mirror Links Github Marxist Internet Archive Introduction One of the only bad things about free internet archives is that they usually exist in the state they were uploaded in. In the case of the Marxist Internet Archive, this is doubly true - not only does...","categories": [],
         "tags": ["Projects","Programming"],
-        "url": "/mia-reader/",
+        "url": "/miareader/",
         "teaser": null
       }]

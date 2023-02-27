@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "Markdown Cheat Sheet"
-date:   2023-02-11 01:53:00 -0700
+title: Markdown Cheat Sheet
+date: 023-02-11 01:53:00 -0700
 tag: Documentation
 ---
 
