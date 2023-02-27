@@ -36,7 +36,6 @@ So far, my process for generating each section is as follows:
 - [Just-the-docs](https://github.com/just-the-docs/just-the-docs) - Just-the-docs is a Jekyll theme primarily meant for documentation sites, but I think it's navigation structure is perfect for a site like mia-reader. It's also very easy to customize, free to use, has easy gh-pages hosting(though I'm not using it), and is very well documented.
 - [Font Awesome](https://fontawesome.com/) - Font Awesome is tool for adding icons to your site. I use it for the search icon and my light/dark mode toggle.
 - [wget](https://www.gnu.org/software/wget/) - wget is a great tool for downloading files from the internet. It has a ton of options and has made the process of downloading from the archive much easier.
-- [
 
 ## The Future
 I plan to continue expanding mia-reader. Some of the things I'd like to add are:
