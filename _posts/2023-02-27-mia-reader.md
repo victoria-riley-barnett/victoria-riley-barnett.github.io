@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "mia-reader"
-date:   2023-02-27 02:03:50 -0700
+title: "mia-reader"
+date: 2023-02-27 02:03:50 -0700
 tags: Projects Programming
 ---
 
