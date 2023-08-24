@@ -24,7 +24,7 @@ var store = [{
         "teaser": null
       },{
         "title": "mia reader",
-        "excerpt":"A marxist internet archive reading mirror Links Github Marxist Internet Archive Introduction One of the only bad things about free internet archives is that they usually exist in the state they were uploaded in. In the case of the Marxist Internet Archive, this is doubly true - not only does...","categories": [],
+        "excerpt":"A marxist internet archive reading mirror Links Github Marxist Internet Archive Introduction One of the only bad things about free internet archives is that they usually exist in the state they were uploaded in. In the case of the Marxist Internet Archive, this means the format they serve in is...","categories": [],
         "tags": ["Projects","Programming"],
         "url": "/miareader/",
         "teaser": null

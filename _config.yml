@@ -21,6 +21,7 @@
 #Site vars
 title: victoriabarnett.codes
 email: victoria.022@proton.me
+tagline: A portfolio site, blog, and resume for Victoria Barnett
 description: >- # this means to ignore newlines until "baseurl:"
   A portfolio site, blog, and resume for Victoria Barnett using Jekyll, Github Pages, and mmistakes dark.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -34,6 +35,7 @@ site.name: victoriabarnett
 name: "Victoria Barnett"
 subtitle: "A portfolio site & blog"
 locale: "en-US"
+timezone: America/Los_Angeles
 logo: "assets/images/192x192.png"
 
 
