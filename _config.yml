@@ -65,7 +65,7 @@ plugins:
 author:
   name   : "Victoria Barnett"
   avatar : "/assets/images/bio-photo.jpeg"
-  bio    : "Software Dev & CS Student living in San Francisco."
+  bio    : "Software Engineer & CS Student in San Francisco."
   links:
     - label: "victoriabarnett.codes"
       icon: "fas fa-fw fa-link"
@@ -73,9 +73,9 @@ author:
     - label: "victoria-riley-barnett"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/victoria-riley-barnett"
-    - label: "v@victoriabarnett.codes"
+    - label: "victoria.022@proton.me"
       icon: "fa fa-envelope"
-      url: "mailto:v@victoriabarnett.codes"
+      url: "mailto:victoria.022@proton.me"
     - label: LinkedIn
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/victoriabarnett0/"
