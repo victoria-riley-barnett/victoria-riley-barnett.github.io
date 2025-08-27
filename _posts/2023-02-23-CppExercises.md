@@ -1,8 +1,8 @@
 ---
 layout: posts
 title: C++ Exercises
-date: 2023-02-23 13:55 -0800
-tags: Programming
+date: 2023-02-23 13:55
+tag: Programming
 ---
 
 # C++ Exercises

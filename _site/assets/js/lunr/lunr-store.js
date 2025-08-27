@@ -1,20 +1,14 @@
 var store = [{
-        "title": "Markdown Cheat Sheet",
-        "excerpt":"Credit to The Markdown Guide - this Markdown cheat sheet provides a quick overview of all the Markdown syntax elements and simultaneously lets me see them all styled. Jump to Styled ## Basic Syntax These are the elements outlined in John Gruber’s original design document. All Markdown applications support these...","categories": [],
-        "tags": ["Documentation"],
-        "url": "/Markdown-cheat-sheet/",
-        "teaser": null
-      },{
         "title": "i3 config",
         "excerpt":"See my Github - i3config. # i3 config file This config file uses keycodes (bindsym) and was written for the QWERTY layout. # Font for window titles. Will also be used by the bar unless a different font # is used in the bar {} block below. font pango:monospace 8...","categories": [],
         "tags": ["Documentation"],
         "url": "/i3config/",
         "teaser": null
       },{
-        "title": "A ZSH Plugin",
-        "excerpt":"One of the earliest projects I did as I was learning Unix, starting with ZSH on my Macbook. I wrote a little plugin for oh-my-zsh that pulls a Marx quote with each new terminal session and adds some beautiful red imagery to your terminal. In the future I want to...","categories": [],
-        "tags": ["Projects","Programming"],
-        "url": "/ZSHplugin/",
+        "title": "Markdown Cheat Sheet",
+        "excerpt":"Credit to The Markdown Guide - this Markdown cheat sheet provides a quick overview of all Markdown syntax elements and simultaneously lets you see how they look styled. Jump to Styled ## Basic Syntax These are the elements outlined in John Gruber’s original design document. All Markdown applications support these...","categories": [],
+        "tags": ["Documentation"],
+        "url": "/Markdown-cheat-sheet/",
         "teaser": null
       },{
         "title": "C++ Exercises",
@@ -23,9 +17,9 @@ var store = [{
         "url": "/CppExercises/",
         "teaser": null
       },{
-        "title": "mia reader",
-        "excerpt":"A marxist internet archive reading mirror Links Github Marxist Internet Archive Introduction One of the only bad things about free internet archives is that they usually exist in the state they were uploaded in. In the case of the Marxist Internet Archive, this means the format they serve in is...","categories": [],
-        "tags": ["Projects","Programming"],
-        "url": "/miareader/",
+        "title": "Starting with Docker",
+        "excerpt":"Today I truly dived into Docker for the first time! I’ve fiddled with it before, redeploying portainer applications when needed but not really understanding what’s going on, despite being familiar with the concept of containerization from a CS course. To start, I had a fun manual install process on Arch,...","categories": [],
+        "tags": ["Devops"],
+        "url": "/Docker/",
         "teaser": null
       }]
