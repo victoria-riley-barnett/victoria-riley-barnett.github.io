@@ -64,3 +64,6 @@ form button {
   border: 0em;
   border-radius: .7vw;
 }
+.site-title {
+  font-weight: 600;
+}
